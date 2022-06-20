@@ -1,7 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination-container {
+  margin-top: 3rem;
+}
+
+.pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-item {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.pagination-button {
+  padding: 0.75rem;
+  border-radius: 0.35rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in;
+}
+
+.pagination-button.is-selected {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.page-items-container {
+  margin-top: 2rem;
+}
+
+.page-item {
+  margin-bottom: 1rem;
+}
+
+.page-item-container {
+  text-align: left;
 }

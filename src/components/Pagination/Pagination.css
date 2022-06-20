@@ -1,0 +1,38 @@
+/* .page-number {
+  color: red;
+  margin-top: .8em;
+}
+
+.page-list {
+  list-style: none;
+  display: flex;
+}
+
+.page-list button {
+  padding: .7em;
+  cursor: pointer;
+}
+
+.page-list button.active {
+  background-color: white;
+  color: black;
+}
+
+.page-list li button {
+  background-color: transparent;
+  border: none;
+  color: #5C648D;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.page-list li button:focus {
+  outline: none;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+} */
